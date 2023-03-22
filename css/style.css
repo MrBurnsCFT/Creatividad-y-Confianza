@@ -103,8 +103,57 @@ aside .widget ul {
 aside .widget ul li {
     border-bottom: 1px solid rgba(165, 104, 13, 0.922);
     margin-bottom: 10px;
+    padding: 10px 0;
 }
 
+aside .widget ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside .widget ul li a:hover {
+    color: orange;
+}
+
+aside .widget p {
+    line-height: 27px;
+}
+
+@keyframes colores {
+    from {background: #9eb6c6;}
+    to {background: #0f3856;}
+
+}
+.caja {
+    width: auto;
+    height: 300px;
+    background: #9eb3c2;
+    animation-name: colores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: large;
+    transition: all 1s ease;
+}
+
+
+.caja h2 {
+    text-align: center;
+}
+
+.caja p {
+    font-size: 16px;
+    color: rgb(124, 228, 169);
+}
+
+footer {
+    width: 1000px;
+    padding: 15px 0;
+    
+    color: white;
+    background: grey;
+    text-align: center;
+    clear: both;
+}
 .formulario {
     background: grey;
     width: 100%;
