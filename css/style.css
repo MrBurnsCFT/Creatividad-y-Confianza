@@ -13,7 +13,7 @@ body {
 }
 
 .contenedor {
-    width: 1000px;
+    width: 90%;
     margin: 20px;
     overflow: hidden;
 }
@@ -57,7 +57,7 @@ header nav ul li a:hover {
 }
 
 .main {
-    width: 700px;
+    width: 70%;
     background: white;
     float: left;
 }
@@ -86,7 +86,7 @@ header nav ul li a:hover {
 }
 
 aside {
-    width: 300px;
+    width: 30%;
     background: rgb(13, 126, 15);
     padding: 20px;
     color: black;
@@ -153,7 +153,7 @@ aside .widget p {
 }
 
 footer {
-    width: 1000px;
+    width: 100%;
     padding: 15px 0;
     
     color: white;
