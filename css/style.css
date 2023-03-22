@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(55, 55, 58, 0.922);
+    font-family: Arial, Sans-serif;
+    font-size: 10px;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+header {
+    background: rgb(41, 41, 110);
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+}
+
+header nav ul li a:hover {
+    background: rgb(55, 55, 206);
+    color: aqua;
+}
+
+.main {
+    width: 700px;
+    background: white;
+    float: left;
+}
+
+.main .imagen {
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .posteos {
+    padding: 40px;
+}
+
+.main .posteos article h3 {
+    margin-bottom: 20px;
+    color: rgb(93, 39, 39);
+}
+
+.main .posteos article p {
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+aside {
+    width: 300px;
+    background: rgb(13, 126, 15);
+    padding: 20px;
+    color: black;
+    float: left;
+}
+
+aside .widget {
+    margin-bottom: 20px;
+}
+
+aside .widget .titulo {
+    color: black;
+    border-bottom: 1px solid ;
+    margin-bottom: 10px;
+}
+
+aside .widget ul {
+    list-style: none;
+}
+
+aside .widget ul li {
+    border-bottom: 1px solid rgba(165, 104, 13, 0.922);
+    margin-bottom: 10px;
+}
+
+.formulario {
+    background: grey;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.formulario h3 {
+    padding: 5px;
+}
+
+.formulario input {
+    display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="textarea"],
+.formulario input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.formulario input[type="textarea"] {
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario input[type="submit"] {
+    background: green;
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+
