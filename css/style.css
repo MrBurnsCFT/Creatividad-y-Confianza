@@ -14,7 +14,7 @@ body {
 
 .contenedor { 
     width: 100%;
-    margin: 1% auto;
+    margin: 0% auto;
     overflow: hidden;
 }
 
@@ -60,10 +60,12 @@ header nav ul li a:hover {
     width: 70%;
     background: white;
     float: left;
+    font-size: 16px;
 }
 
 .main .imagen {
     width: 100%;
+    border: 2px solid rgb(243, 247, 12);
 }
 
 .main .imagen img {
@@ -91,6 +93,7 @@ aside {
     padding: 20px;
     color: black;
     float: left;
+    font-size: 12px;
 }
 
 aside .widget {
@@ -134,6 +137,7 @@ aside .widget p {
 .caja {
     width: auto;
     height: 300px;
+    padding: 10px;
     background: #9eb3c2;
     animation-name: colores;
     animation-duration: 5s;
@@ -144,18 +148,37 @@ aside .widget p {
 
 
 .caja h2 {
+    padding: 10px;
     text-align: center;
+    color: aqua;
 }
 
 .caja p {
+    padding: 10px;
     font-size: 16px;
     color: rgb(124, 228, 169);
+}
+
+.btn {
+    padding: 5px;
+    margin: auto;
+    background: green;
+    color: blanchedalmond;
+    font-size: 14px;
+    border: #0f3856;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: .70;
 }
 
 footer {
     width: 100%;
     padding: 15px 0;
-    
     color: white;
     background: grey;
     text-align: center;
@@ -167,6 +190,15 @@ footer {
     margin: auto;
     padding: 5px;
     border-radius: 5px;
+}
+
+.formregistro {
+    background: grey;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
 }
 
 .formulario h3 {
@@ -189,13 +221,14 @@ footer {
     cursor: pointer;
 }
 
-.formulario input[type="options"]{
+.select[type="options"]{
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
-    border: 1px solid blue;
+    border: 1px solid rgb(86, 86, 190);
     cursor: pointer;
+    appearance: none;
 }
 
 .formulario input[type="textarea"] {
@@ -206,12 +239,20 @@ footer {
 }
 
 .formulario input[type="submit"] {
-    background: green;
-    width: 100px;
-    margin: 0 auto;
     padding: 5px;
-    border: 1px solid green;
+    margin: auto;
+    background: green;
+    width: 40%;
+    color: blanchedalmond;
+    font-size: 14px;
+    border: #0f3856;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 800px) {
