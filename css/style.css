@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background: rgb(41, 41, 110);
+    background: rgb(22, 22, 83);
 }
 
 header .titulo {
@@ -89,9 +89,9 @@ header nav ul li a:hover {
 
 aside {
     width: 30%;
-    background: rgb(13, 126, 15);
+    background: rgb(43, 219, 210);
     padding: 20px;
-    color: black;
+    color: rgb(135, 134, 134);
     float: left;
     font-size: 12px;
 }
@@ -151,12 +151,14 @@ aside .widget p {
     padding: 10px;
     text-align: center;
     color: aqua;
+    text-decoration: blink;
 }
 
 .caja p {
     padding: 10px;
     font-size: 16px;
     color: rgb(124, 228, 169);
+    
 }
 
 .btn {
